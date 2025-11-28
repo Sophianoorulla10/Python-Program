@@ -1,0 +1,10 @@
+try:
+    a=int(input("enter the first num:"))
+    b=int(input("enter the second num:"))
+    c=a/b
+except ValueError:
+    print("can't divide by zero")
+except:
+    print("something went wrong")
+      
+print("exceuted successfully")
